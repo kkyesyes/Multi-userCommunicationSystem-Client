@@ -1,2 +1,2 @@
-# Multi-userCommunicationSystem
-Network-communication learning project
+# Multi-userCommunicationSystem-Client
+Network-communication learning project at client
