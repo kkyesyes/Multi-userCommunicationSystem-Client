@@ -21,6 +21,7 @@ public class QQView {
 
     public static void main(String[] args) {
         new QQView().mainMenu();
+
     }
 
     // 显示主菜单
