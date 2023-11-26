@@ -1,0 +1,10 @@
+
+t	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ó« øÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(¹‹ó¿ıÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(ÔÏÌº
+E	java:S106D"+Replace this use of System.out by a logger.(‰»ğúÿÿÿÿ
+E	java:S106["+Replace this use of System.out by a logger.(‰»ğúÿÿÿÿ
+@	java:S106~"+Replace this use of System.out by a logger.(¦Ô±¶
+A	java:S106ˆ"+Replace this use of System.out by a logger.(ÔÏÌº
+A	java:S106©"+Replace this use of System.out by a logger.(ßğóÀ

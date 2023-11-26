@@ -1,0 +1,33 @@
+
+g	java:S112@"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ıÁÎÀ1
+h
+java:S1301$"KReplace this "switch" statement by "if" statements to increase readability.(°Ó÷8îÓ‹ÎÀ1
+o
+java:S1450"RRemove the "key" field and declare it as a local variable in the relevant methods.(ÖÖ³¿8÷Ô‹ÎÀ1
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(öÉ´ÿÿÿÿÿ8üÔ‹ÎÀ1
+L	java:S106"+Replace this use of System.out by a logger.(ä«Ù‡ûÿÿÿÿ8ıÔ‹ÎÀ1
+L	java:S106"+Replace this use of System.out by a logger.(ÆÑØáúÿÿÿÿ8ıÔ‹ÎÀ1
+G	java:S106"+Replace this use of System.out by a logger.(‹£¯8ıÔ‹ÎÀ1
+L	java:S106 "+Replace this use of System.out by a logger.(„Àõîùÿÿÿÿ8ıÔ‹ÎÀ1
+>	java:S131$""Add a default case to this switch.(°Ó÷8şÔ‹ÎÀ1
+L	java:S106&"+Replace this use of System.out by a logger.(áß½ÿşÿÿÿÿ8şÔ‹ÎÀ1
+L	java:S106("+Replace this use of System.out by a logger.(ş¶ªˆıÿÿÿÿ8ÿÔ‹ÎÀ1
+L	java:S106-"+Replace this use of System.out by a logger.(Íå˜ûÿÿÿÿ8€Õ‹ÎÀ1
+G	java:S1061"+Replace this use of System.out by a logger.(ìÃñ°8€Õ‹ÎÀ1
+G	java:S1062"+Replace this use of System.out by a logger.(„¡ÿ­8€Õ‹ÎÀ1
+G	java:S1063"+Replace this use of System.out by a logger.(‘Æìş8€Õ‹ÎÀ1
+F	java:S1064"+Replace this use of System.out by a logger.(úÉ
+8€Õ‹ÎÀ1
+L	java:S1065"+Replace this use of System.out by a logger.(ø¿ß¨ûÿÿÿÿ8€Õ‹ÎÀ1
+G	java:S1066"+Replace this use of System.out by a logger.(‹£¯8Õ‹ÎÀ1
+L	java:S1067"+Replace this use of System.out by a logger.(„Àõîùÿÿÿÿ8Õ‹ÎÀ1
+>	java:S1319""Add a default case to this switch.(°Ó÷8Õ‹ÎÀ1
+]	java:S125;"<This block of commented-out lines of code should be removed.(”ˆ²ùÿÿÿÿ8Õ‹ÎÀ1
+{
+java:S2142?"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8óÂÎÀ1
+F	java:S106D"+Replace this use of System.out by a logger.(¢™¦@8•Ö‹ÎÀ1
+G	java:S106G"+Replace this use of System.out by a logger.(èØéÔ8—Ö‹ÎÀ1
+G	java:S106J"+Replace this use of System.out by a logger.(àÓÔ8˜Ö‹ÎÀ1
+L	java:S106R"+Replace this use of System.out by a logger.(¼ËñØúÿÿÿÿ8™Ö‹ÎÀ1
+G	java:S106X"+Replace this use of System.out by a logger.(‡ÄÇÈ8šÖ‹ÎÀ1
