@@ -1,24 +1,16 @@
 
-M
-src/qqcommon/MessageType.java,1\2\12babf4b0d1e4a2fbd352a23375ed534ba3a25a9
 T
 $src/com/kk/qqcommon/MessageType.java,d\5\d5587b798a3536c2f9a2c7e4c7ca76b66a0c2e8c
 T
 $src/com/kk/qqclient/view/QQView.java,2\3\238cb8b3c08b4859d03214a6161a9ea2668737d5
-\
-,src/com/kk/qqclient/view/qqclient/utils.java,6\0\60ea1d42e7d85f1a260e0987ae236098bdcdd2c3
 V
 &src/com/kk/qqclient/utils/Utility.java,0\c\0c201096c4179a39ecf06046996217859f9d8190
 b
 2src/com/kk/qqclient/service/UserClientService.java,c\1\c1fb22dbdc92564326c4170c8e36674505986f67
 M
 src/com/kk/qqcommon/User.java,9\e\9e3bdb07990cdcf5939fd38580b42852972dea0d
-h
-8src/com/kk/qqclient/service/UserConnectServerThread.java,2\d\2dc4a50c4659382624cf353098adc9f349381339
 j
 :src/com/kk/qqclient/service/ClientConnectServerThread.java,2\c\2ccca1ab5459d07e834583b1acdfb7b5b091b660
-j
-:src/com/kk/qqclient/service/ManageClientConnectServer.java,1\c\1c3a7632022a2ff49d71340a5de883ac3ade1df4
 p
 @src/com/kk/qqclient/service/ManageClientConnectServerThread.java,e\2\e2a15cdb1590e15129f99f71c23b59e20cff92be
 :
@@ -28,8 +20,6 @@ p
 Q.idea/sonarlint/securityhotspotstore/2/c/2ccca1ab5459d07e834583b1acdfb7b5b091b660,5\5\553417ebbe20db7d0ab65ce890371949d60807fc
 Å
 Q.idea/sonarlint/securityhotspotstore/d/5/d5587b798a3536c2f9a2c7e4c7ca76b66a0c2e8c,c\2\c29ad9b5cff5bc08ccabdd1c2b8568b387bb8ca1
-Å
-Q.idea/sonarlint/securityhotspotstore/2/d/2dc4a50c4659382624cf353098adc9f349381339,8\3\83afc8013b31473605b2d6d6775ccb631f93c57b
 Å
 Q.idea/sonarlint/securityhotspotstore/2/3/238cb8b3c08b4859d03214a6161a9ea2668737d5,5\9\592e28a641d10da3ec2475b56b18f610ba203bde
 <
@@ -46,18 +36,12 @@ Q.idea/sonarlint/securityhotspotstore/9/e/9e3bdb07990cdcf5939fd38580b42852972dea
 Q.idea/sonarlint/securityhotspotstore/0/c/0c201096c4179a39ecf06046996217859f9d8190,5\a\5a25207786e7a392213e23e7924806b64eccaa6b
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
-Å
-Q.idea/sonarlint/securityhotspotstore/6/0/60ea1d42e7d85f1a260e0987ae236098bdcdd2c3,6\8\68db522a57284d0bd4431849aab38f02c621a094
 w
 G.idea/sonarlint/issuestore/9/e/9e3bdb07990cdcf5939fd38580b42852972dea0d,1\2\12bc1b21ddf09e42f999356f165bf3beaece25de
-Å
-Q.idea/sonarlint/securityhotspotstore/1/2/12babf4b0d1e4a2fbd352a23375ed534ba3a25a9,0\8\0850ea729172ec9fcf45e9b3033078110def28ca
 w
 G.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,f\0\f0e0f9cec86fe4b939ae22be5264c758801eb28f
 w
 G.idea/sonarlint/issuestore/a/a/aa915cb147362ebf9efc764d09ddd63ac82d0cb7,a\7\a784eb42fd978b2582a745b08b15a91224e63aa5
-Å
-Q.idea/sonarlint/securityhotspotstore/1/c/1c3a7632022a2ff49d71340a5de883ac3ade1df4,f\2\f29a545b97bc656871bbf910bd48deb1c98bcb9e
 w
 G.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302,e\d\ed67eb178d523a4b3f117dcbe0eda5196367ceec
 w

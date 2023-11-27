@@ -21,6 +21,12 @@ public class UserClientService {
     private User u = new User();
     private Socket socket;
 
+    /**
+     * 验证用户是否合法
+     * @param userId 用户ID
+     * @param pwd 用户密码
+     * @return 是否合法
+     */
     public boolean checkUser(String userId, String pwd) {
         boolean b = false;
 
@@ -65,13 +71,31 @@ public class UserClientService {
     public void getOnlineFriends() {
         Message message = new Message();
         message.setMesType(MessageType.MESSAGE_GET_ONLINE_FRIEND);
+        message.setSender(u.getUserId());
 
         // 发送给服务器
         // 得到想要拉取列表的用户在客户端的线程的socket进行传输数据
+        ClientConnectServerThread clientConnectServerThread =
+                ManageClientConnectServerThread.getClientConnectServerThread(u.getUserId());
+        Socket socket = clientConnectServerThread.getSocket();
         try {
-            ClientConnectServerThread clientConnectServerThread =
-                    ManageClientConnectServerThread.getClientConnectServerThread(u.getUserId());
-            Socket socket = clientConnectServerThread.getSocket();
+            ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
+
+            oos.writeObject(message);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void logout() {
+        Message message = new Message();
+        message.setMesType(MessageType.MESSAGE_CLIENT_EXIT);
+        message.setSender(u.getUserId());
+
+        ClientConnectServerThread clientConnectServerThread =
+                ManageClientConnectServerThread.getClientConnectServerThread(u.getUserId());
+        Socket socket = clientConnectServerThread.getSocket();
+        try {
             ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
 
             oos.writeObject(message);

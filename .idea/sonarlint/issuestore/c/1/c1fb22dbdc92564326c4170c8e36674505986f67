@@ -1,10 +1,13 @@
 
-g	java:S1128"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ô¾öÊÀ1
-g	java:S112O"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8”’÷ÊÀ1
+g	java:S112>"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8‘ÔçŠÁ1
+g	java:S112V"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8’ÔçŠÁ1
+g	java:S112g"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8”ÔçŠÁ1
 w
-java:S1450"URemove the "socket" field and declare it as a local variable in the relevant methods.(Å’¬Úşÿÿÿÿ8Ú¾öÊÀ1
+java:S1450"URemove the "socket" field and declare it as a local variable in the relevant methods.(Å’¬Úşÿÿÿÿ8ÔçŠÁ1
 \
-java:S1117J":Rename "socket" which hides the field declared at line 22.(ööª¡ıÿÿÿÿ8ã¾öÊÀ1
+java:S1117P":Rename "socket" which hides the field declared at line 22.(ööª¡ıÿÿÿÿ8§ÔçŠÁ1
+\
+java:S1117a":Rename "socket" which hides the field declared at line 22.(ööª¡ıÿÿÿÿ8ªÔçŠÁ1
 S
 java:S1128
-"1Remove this unused import 'java.io.OutputStream'.(Ó ³ÿÿÿÿÿ8‹†ùÊÀ1
+"1Remove this unused import 'java.io.OutputStream'.(Ó ³ÿÿÿÿÿ8«ÔçŠÁ1

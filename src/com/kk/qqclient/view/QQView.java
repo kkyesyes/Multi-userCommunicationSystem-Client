@@ -76,6 +76,8 @@ public class QQView {
                                     break;
                                 case "9":
                                     loop = false;
+                                    userClientService.logout();
+                                    System.exit(0);
                                     break;
                             }
                         }
