@@ -1,8 +1,22 @@
 
-g	java:S112)"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¬¿šËÀ1
-]	java:S125"<This block of commented-out lines of code should be removed.(·»ğ“ÿÿÿÿÿ8€Ç‡ÎÀ1
-G	java:S106!"+Replace this use of System.out by a logger.(—öî”8å¿šËÀ1
-L	java:S106#"+Replace this use of System.out by a logger.(›Æ÷ìüÿÿÿÿ8æ¿šËÀ1
-G	java:S106&"+Replace this use of System.out by a logger.(ìªÙÁ8–’œËÀ1
+g	java:S112="FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÀÚÆ©Á1
+r
+java:S1192."UDefine a constant instead of duplicating this literal "--------------------" 3 times.(Œ€ÿ8ÈÚÆ©Á1
+x
+java:S1192,"VDefine a constant instead of duplicating this literal "
+--------------------" 3 times.(¢üš°ùÿÿÿÿ8ÍÚÆ©Á1
+]	java:S125"<This block of commented-out lines of code should be removed.(·»ğ“ÿÿÿÿÿ8 ÛÆ©Á1
+C	java:S131""Add a default case to this switch.(áê€ñúÿÿÿÿ8¢ÛÆ©Á1
+L	java:S106#"+Replace this use of System.out by a logger.(ä Ì”ùÿÿÿÿ8¥ÛÆ©Á1
+L	java:S106%"+Replace this use of System.out by a logger.(›Æ÷ìüÿÿÿÿ8§ÛÆ©Á1
+L	java:S106,"+Replace this use of System.out by a logger.(¢üš°ùÿÿÿÿ8©ÛÆ©Á1
+G	java:S106-"+Replace this use of System.out by a logger.(ôÙ™8ªÛÆ©Á1
+G	java:S106."+Replace this use of System.out by a logger.(Œ€ÿ8¬ÛÆ©Á1
+L	java:S1061"+Replace this use of System.out by a logger.(¢üš°ùÿÿÿÿ8­ÛÆ©Á1
+L	java:S1062"+Replace this use of System.out by a logger.(»ò”øÿÿÿÿ8®ÛÆ©Á1
+G	java:S1063"+Replace this use of System.out by a logger.(Œ€ÿ8°ÛÆ©Á1
+L	java:S1068"+Replace this use of System.out by a logger.(¢üš°ùÿÿÿÿ8±ÛÆ©Á1
+L	java:S1069"+Replace this use of System.out by a logger.(Ü¥ÁŠüÿÿÿÿ8²ÛÆ©Á1
+G	java:S106:"+Replace this use of System.out by a logger.(Œ€ÿ8³ÛÆ©Á1
 R
-java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8ˆ˜ËÀ1
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8¶ÛÆ©Á1

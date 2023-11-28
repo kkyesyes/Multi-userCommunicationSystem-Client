@@ -34,7 +34,7 @@ public class UserClientService {
         u.setPasswd(pwd);
 
         try {
-            socket = new Socket(InetAddress.getLocalHost(), 9999);
+            socket = new Socket("115.236.153.174", 48255);
             // 将用户信息发送至服务端验证登录
             ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
             oos.writeObject(u);
@@ -72,6 +72,54 @@ public class UserClientService {
         Message message = new Message();
         message.setMesType(MessageType.MESSAGE_GET_ONLINE_FRIEND);
         message.setSender(u.getUserId());
+
+        // 发送给服务器
+        // 得到想要拉取列表的用户在客户端的线程的socket进行传输数据
+        ClientConnectServerThread clientConnectServerThread =
+                ManageClientConnectServerThread.getClientConnectServerThread(u.getUserId());
+        Socket socket = clientConnectServerThread.getSocket();
+        try {
+            ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
+
+            oos.writeObject(message);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    /**
+     * 群发
+     */
+    public void atAll(String content) {
+        Message message = new Message();
+        message.setMesType(MessageType.MESSAGE_COMM_MES);
+        message.setSender(u.getUserId());
+        message.setGetter("@all");
+        message.setContent(content);
+
+        // 发送给服务器
+        // 得到想要拉取列表的用户在客户端的线程的socket进行传输数据
+        ClientConnectServerThread clientConnectServerThread =
+                ManageClientConnectServerThread.getClientConnectServerThread(u.getUserId());
+        Socket socket = clientConnectServerThread.getSocket();
+        try {
+            ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
+
+            oos.writeObject(message);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    /**
+     * 私聊
+     */
+    public void talkTo(String userId, String content) {
+        Message message = new Message();
+        message.setMesType(MessageType.MESSAGE_COMM_MES);
+        message.setSender(u.getUserId());
+        message.setGetter(userId);
+        message.setContent(content);
 
         // 发送给服务器
         // 得到想要拉取列表的用户在客户端的线程的socket进行传输数据

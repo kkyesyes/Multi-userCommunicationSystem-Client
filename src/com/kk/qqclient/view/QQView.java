@@ -66,10 +66,25 @@ public class QQView {
                                     }
                                     break;
                                 case "2":
-                                    System.out.println("群发消息");
+//                                    System.out.println("群发消息");
+                                    while (true) {
+                                        System.out.println("==========群发模式(quit退出)==========");
+                                        System.out.println("请输入内容(回车发送)：");
+                                        String data = Utility.readString(500);
+                                        if ("quit".equals(data)) break;
+                                        userClientService.atAll(data);
+                                    }
                                     break;
                                 case "3":
-                                    System.out.println("私聊消息");
+                                    System.out.print("请输入私聊对方的用户号：");
+                                    String ID = Utility.readString(50);
+                                    while (true) {
+                                        System.out.println("==========与 " + ID + " 私聊消息中(quit退出)==========");
+                                        System.out.println("请输入内容(回车发送)：");
+                                        String data = Utility.readString(500);
+                                        if ("quit".equals(data)) break;
+                                        userClientService.talkTo(ID, data);
+                                    }
                                     break;
                                 case "4":
                                     System.out.println("发送文件");

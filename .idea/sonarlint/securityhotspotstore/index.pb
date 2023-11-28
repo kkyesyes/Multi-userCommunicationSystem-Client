@@ -59,19 +59,11 @@ Q.idea/sonarlint/securityhotspotstore/c/e/ce0d301658ce3f865714cb6a5ecc646f074d6d
 w
 G.idea/sonarlint/issuestore/5/5/553417ebbe20db7d0ab65ce890371949d60807fc,f\5\f5007959438573ad6216e063abab2b26762970de
 Å
-Q.idea/sonarlint/securityhotspotstore/6/8/68db522a57284d0bd4431849aab38f02c621a094,b\3\b3669ac0cceac51b35074df6931e8d9612bf7f10
-Å
 Q.idea/sonarlint/securityhotspotstore/e/2/e2a15cdb1590e15129f99f71c23b59e20cff92be,f\8\f89f2a865a08376b12f05c877afeb17dfe13aea7
-w
-G.idea/sonarlint/issuestore/0/8/0850ea729172ec9fcf45e9b3033078110def28ca,6\0\60cb4fc8265d1a6dc47348f3edbc453a39e85017
-w
-G.idea/sonarlint/issuestore/6/8/68db522a57284d0bd4431849aab38f02c621a094,4\b\4be38d47a26f33262ada166588e5f0eb24d9f546
 Å
 Q.idea/sonarlint/securityhotspotstore/1/2/12bc1b21ddf09e42f999356f165bf3beaece25de,7\e\7e3d4a186f779cda02fa5d1faaa7350b245453f1
 w
 G.idea/sonarlint/issuestore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e,a\e\ae9ddf453f55affea2d6b9e3973cac1eb2efb4e1
-w
-G.idea/sonarlint/issuestore/8/3/83afc8013b31473605b2d6d6775ccb631f93c57b,1\0\10f43df4f7d00996f3b9598c02d1c0b2d7fd0a80
 Å
 Q.idea/sonarlint/securityhotspotstore/5/5/553417ebbe20db7d0ab65ce890371949d60807fc,5\5\556f9cdb8f9cc3f148c57ecdfd95cea25bc107b4
 Å
@@ -85,8 +77,6 @@ Q.idea/sonarlint/securityhotspotstore/4/2/427b4e8418d9a714aa9b133f85aea69387321f
 Å
 Q.idea/sonarlint/securityhotspotstore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e,9\0\909762385fc6eb20f922a91c6865741308b57f2c
 Å
-Q.idea/sonarlint/securityhotspotstore/8/3/83afc8013b31473605b2d6d6775ccb631f93c57b,6\2\62fca4cd525d1e6b323b26ed87229a32d8548b1a
-Å
 Q.idea/sonarlint/securityhotspotstore/5/a/5a25207786e7a392213e23e7924806b64eccaa6b,7\a\7a6943ec6139af32d968c9dd2e7c7e03ad7b7f02
 Å
 Q.idea/sonarlint/securityhotspotstore/5/9/592e28a641d10da3ec2475b56b18f610ba203bde,1\9\19e4e9406b7c0c67630abd02b00692c0a3d3e6ac
@@ -94,8 +84,6 @@ Q.idea/sonarlint/securityhotspotstore/5/9/592e28a641d10da3ec2475b56b18f610ba203b
 Q.idea/sonarlint/securityhotspotstore/7/0/70aafae603c3cf6504d3ead45d9da67d5ba89d48,8\1\817fd1bce8635e2b7ef0a37c86d56f5210a23652
 7
 LICENSE,0\3\0398ccd0f49298b10a3d76a47800d2ebecd49859
-Å
-Q.idea/sonarlint/securityhotspotstore/0/8/0850ea729172ec9fcf45e9b3033078110def28ca,4\d\4de2ce833c835dfc583bc902e59a3542230ebb52
 Å
 Q.idea/sonarlint/securityhotspotstore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,b\b\bbf202272a96de5cd6b6828ffdc55fb3ce45289c
 w

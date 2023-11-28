@@ -28,14 +28,34 @@ public class ClientConnectServerThread extends Thread {
                 ObjectInputStream ois = new ObjectInputStream(socket.getInputStream());
                 Message ms = (Message)ois.readObject();
 
-                if (ms.getMesType().equals(MessageType.MESSAGE_RET_ONLINE_FRIEND)) {
-                    String[] onlineUsers = ms.getContent().split(" ");
-                    System.out.println("\t==========当前用户在线列表==========");
-                    for (int i = 0; i < onlineUsers.length; ++i) {
-                        System.out.println(onlineUsers[i]);
-                    }
-                } else {
-                    System.out.println("其它消息暂不处理...");
+                switch (ms.getMesType()) {
+                    // 返回在线用户列表
+                    case MessageType.MESSAGE_RET_ONLINE_FRIEND:
+                        String[] onlineUsers = ms.getContent().split(" ");
+                        System.out.println("\n\t==========当前用户在线列表==========");
+                        for (int i = 0; i < onlineUsers.length; ++i) {
+                            System.out.println(onlineUsers[i]);
+                        }
+                        break;
+
+                    // 普通消息
+                    case MessageType.MESSAGE_COMM_MES:
+                        if (ms.getGetter().equals("@all")) {
+                            System.out.println("\n--------------------");
+                            System.out.println(ms.getSender() + " 群发说：" + ms.getContent());
+                            System.out.println("--------------------");
+                            break;
+                        }
+                        System.out.println("\n--------------------");
+                        System.out.println(ms.getSender() + " 说：" + ms.getContent());
+                        System.out.println("--------------------");
+                        break;
+
+                    // 其它消息
+                    case MessageType.MESSAGE_OTHERS:
+                        System.out.println("\n--------------------");
+                        System.out.println("SERVER_INFO -> " + ms.getContent());
+                        System.out.println("--------------------");
                 }
             } catch (Exception e) {
                 throw new RuntimeException(e);
