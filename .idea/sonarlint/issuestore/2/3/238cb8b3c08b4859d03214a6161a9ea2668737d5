@@ -1,38 +1,48 @@
 
-g	java:S112A"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ø‘€¡Á1
-m	java:S117P"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™­û§8âç¨Á1
+g	java:S112H"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ö¹±İÁ1
+m	java:S117W"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™­û§8÷¹±İÁ1
 h
-java:S1301%"KReplace this "switch" statement by "if" statements to increase readability.(°Ó÷8û‘€¡Á1
+java:S1301+"KReplace this "switch" statement by "if" statements to increase readability.(°Ó÷8ù¹±İÁ1
 o
-java:S1450"RRemove the "key" field and declare it as a local variable in the relevant methods.(ÖÖ³¿8€’€¡Á1
+java:S1450"RRemove the "key" field and declare it as a local variable in the relevant methods.(ÖÖ³¿8ÿ¹±İÁ1
 t
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 48 to the 15 allowed.(öÉ´ÿÿÿÿÿ8‰’€¡Á1
-L	java:S106"+Replace this use of System.out by a logger.(ä«Ù‡ûÿÿÿÿ8‰’€¡Á1
-L	java:S106"+Replace this use of System.out by a logger.(ÆÑØáúÿÿÿÿ8Š’€¡Á1
-G	java:S106 "+Replace this use of System.out by a logger.(‹£¯8Š’€¡Á1
-L	java:S106!"+Replace this use of System.out by a logger.(„Àõîùÿÿÿÿ8Š’€¡Á1
->	java:S131%""Add a default case to this switch.(°Ó÷8Š’€¡Á1
-L	java:S106'"+Replace this use of System.out by a logger.(áß½ÿşÿÿÿÿ8Š’€¡Á1
-L	java:S106)"+Replace this use of System.out by a logger.(ş¶ªˆıÿÿÿÿ8Š’€¡Á1
-L	java:S106."+Replace this use of System.out by a logger.(Íå˜ûÿÿÿÿ8‹’€¡Á1
-G	java:S1062"+Replace this use of System.out by a logger.(ìÃñ°8‹’€¡Á1
-G	java:S1063"+Replace this use of System.out by a logger.(„¡ÿ­8‹’€¡Á1
-G	java:S1064"+Replace this use of System.out by a logger.(‘Æìş8‹’€¡Á1
-F	java:S1065"+Replace this use of System.out by a logger.(úÉ
-8‹’€¡Á1
-L	java:S1066"+Replace this use of System.out by a logger.(ø¿ß¨ûÿÿÿÿ8‹’€¡Á1
-G	java:S1067"+Replace this use of System.out by a logger.(‹£¯8‹’€¡Á1
-L	java:S1068"+Replace this use of System.out by a logger.(„Àõîùÿÿÿÿ8‹’€¡Á1
->	java:S131:""Add a default case to this switch.(°Ó÷8Œ’€¡Á1
-]	java:S125<"<This block of commented-out lines of code should be removed.(”ˆ²ùÿÿÿÿ8Œ’€¡Á1
+java:S3776""RRefactor this method to reduce its Cognitive Complexity from 48 to the 15 allowed.(öÉ´ÿÿÿÿÿ8‚º±İÁ1
+L	java:S106$"+Replace this use of System.out by a logger.(ä«Ù‡ûÿÿÿÿ8‚º±İÁ1
+L	java:S106%"+Replace this use of System.out by a logger.(ÆÑØáúÿÿÿÿ8‚º±İÁ1
+G	java:S106&"+Replace this use of System.out by a logger.(‹£¯8‚º±İÁ1
+L	java:S106'"+Replace this use of System.out by a logger.(„Àõîùÿÿÿÿ8ƒº±İÁ1
+>	java:S131+""Add a default case to this switch.(°Ó÷8ƒº±İÁ1
+L	java:S106-"+Replace this use of System.out by a logger.(áß½ÿşÿÿÿÿ8ƒº±İÁ1
+L	java:S106/"+Replace this use of System.out by a logger.(ş¶ªˆıÿÿÿÿ8ƒº±İÁ1
+L	java:S1064"+Replace this use of System.out by a logger.(Íå˜ûÿÿÿÿ8ƒº±İÁ1
+G	java:S1068"+Replace this use of System.out by a logger.(ìÃñ°8ƒº±İÁ1
+G	java:S1069"+Replace this use of System.out by a logger.(„¡ÿ­8ƒº±İÁ1
+G	java:S106:"+Replace this use of System.out by a logger.(‘Æìş8„º±İÁ1
+F	java:S106;"+Replace this use of System.out by a logger.(úÉ
+8„º±İÁ1
+L	java:S106<"+Replace this use of System.out by a logger.(ø¿ß¨ûÿÿÿÿ8„º±İÁ1
+L	java:S106="+Replace this use of System.out by a logger.(èâãüÿÿÿÿ8„º±İÁ1
+G	java:S106>"+Replace this use of System.out by a logger.(‹£¯8„º±İÁ1
+L	java:S106?"+Replace this use of System.out by a logger.(„Àõîùÿÿÿÿ8„º±İÁ1
+>	java:S131A""Add a default case to this switch.(°Ó÷8„º±İÁ1
+]	java:S125C"<This block of commented-out lines of code should be removed.(”ˆ²ùÿÿÿÿ8„º±İÁ1
 {
-java:S2142@"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8Œ’€¡Á1
-]	java:S125E"<This block of commented-out lines of code should be removed.(ö²­úÿÿÿÿ8æÙ¨Á1
-L	java:S106G"+Replace this use of System.out by a logger.(Õ™õÊøÿÿÿÿ8’€¡Á1
-L	java:S106H"+Replace this use of System.out by a logger.(¾Š÷˜ùÿÿÿÿ8‘’€¡Á1
-L	java:S106O"+Replace this use of System.out by a logger.(Å³‹Óüÿÿÿÿ8“’€¡Á1
-G	java:S106R"+Replace this use of System.out by a logger.(Ş¦†Ğ8”’€¡Á1
-L	java:S106S"+Replace this use of System.out by a logger.(¾Š÷˜ùÿÿÿÿ8œãç¨Á1
-G	java:S106Z"+Replace this use of System.out by a logger.(àÓÔ8œãç¨Á1
-L	java:S106d"+Replace this use of System.out by a logger.(¼ËñØúÿÿÿÿ8¼åò¨Á1
-G	java:S106j"+Replace this use of System.out by a logger.(‡ÄÇÈ8èÁõ¨Á1
+java:S2142G"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8„º±İÁ1
+]	java:S125L"<This block of commented-out lines of code should be removed.(ö²­úÿÿÿÿ8†º±İÁ1
+L	java:S106N"+Replace this use of System.out by a logger.(Õ™õÊøÿÿÿÿ8†º±İÁ1
+L	java:S106O"+Replace this use of System.out by a logger.(¾Š÷˜ùÿÿÿÿ8†º±İÁ1
+L	java:S106V"+Replace this use of System.out by a logger.(Å³‹Óüÿÿÿÿ8†º±İÁ1
+G	java:S106Y"+Replace this use of System.out by a logger.(Ş¦†Ğ8‡º±İÁ1
+L	java:S106Z"+Replace this use of System.out by a logger.(¾Š÷˜ùÿÿÿÿ8ˆº±İÁ1
+L	java:S106a"+Replace this use of System.out by a logger.(ÇÉáôûÿÿÿÿ8Šº±İÁ1
+]	java:S125b"<This block of commented-out lines of code should be removed.(Ğşş¡ÿÿÿÿÿ8Š²æ¬Â1
+G	java:S106j"+Replace this use of System.out by a logger.(Œ€ Ü8º±İÁ1
+G	java:S106k"+Replace this use of System.out by a logger.(ÙÒÔÔ8º±İÁ1
+L	java:S106w"+Replace this use of System.out by a logger.(¼ËñØúÿÿÿÿ8×¶İÁ1
+G	java:S106}"+Replace this use of System.out by a logger.(‡ÄÇÈ8çĞøôÁ1
+‚
+java:S1128"eRemove this unused import 'com.sun.xml.internal.ws.api.config.management.policy.ManagementAssertion'.(½“½Å8çĞøôÁ1
+W
+java:S1068"5Remove this unused "fileClientService" private field.(‚ìš¸ûÿÿÿÿ8“²æ¬Â1
+ç
+java:S6541""ÄA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 81 to 64, Complexity from 16 to 14, Nesting Level from 7 to 2, Number of Variables from 7 to 6.(öÉ´ÿÿÿÿÿ8‘º±İÁ1

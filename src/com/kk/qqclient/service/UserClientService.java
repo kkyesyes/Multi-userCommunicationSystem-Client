@@ -2,6 +2,7 @@ package com.kk.qqclient.service;
 
 import com.kk.qqcommon.Message;
 import com.kk.qqcommon.MessageType;
+import com.kk.qqcommon.Settings;
 import com.kk.qqcommon.User;
 
 import java.io.IOException;
@@ -135,6 +136,21 @@ public class UserClientService {
         }
     }
 
+    /**
+     * 设置文件保存路径
+     */
+    public void setFileDownloadPath(String folderPath) {
+        Settings.setDownloadPath(folderPath);
+    }
+
+    public void saveFile(String fileData) {
+        String folderPath = Settings.getDownloadPath();
+
+    }
+
+    /**
+     * 退出登录
+     */
     public void logout() {
         Message message = new Message();
         message.setMesType(MessageType.MESSAGE_CLIENT_EXIT);

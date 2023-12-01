@@ -1,8 +1,12 @@
 package com.kk.qqclient.service;
 
+import com.kk.qqclient.utils.Utility;
 import com.kk.qqcommon.Message;
 import com.kk.qqcommon.MessageType;
+import com.kk.qqcommon.Settings;
 
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.net.Socket;
@@ -51,8 +55,36 @@ public class ClientConnectServerThread extends Thread {
                         System.out.println("--------------------");
                         break;
 
-                    // 其它消息
-                    case MessageType.MESSAGE_OTHERS:
+                    // 接收文件
+                    case MessageType.MESSAGE_FILE_MES:
+//                        System.out.println(ms.getSender() + " 向你发送了一份文件");
+//                        // 获取文件存储位置
+//                        String rootDir = Settings.getDownloadPath();
+//                        StringBuilder path = new StringBuilder();
+//                        path.append(rootDir);
+//                        path.append(ms.getFileName());
+//
+//                        // 保存
+//                        FileOutputStream fileOutputStream = null;
+//                        try {
+//                            fileOutputStream = new FileOutputStream(new String(path));
+//                            fileOutputStream.write(ms.getFileData());
+//                        } catch (Exception e) {
+////                            System.out.println("文件保存异常");
+//                            throw new RuntimeException(e);
+//                        } finally {
+//                            try {
+//                                if (fileOutputStream != null) {
+//                                    fileOutputStream.close();
+//                                }
+//                            } catch (IOException e) {
+//                                throw new RuntimeException(e);
+//                            }
+//                        }
+//                        System.out.println("保存文件成功");
+                        break;
+                    // 系统消息
+                    case MessageType.MESSAGE_SYS:
                         System.out.println("\n--------------------");
                         System.out.println("SERVER_INFO -> " + ms.getContent());
                         System.out.println("--------------------");

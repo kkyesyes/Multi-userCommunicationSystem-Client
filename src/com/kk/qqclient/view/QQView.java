@@ -1,7 +1,10 @@
 package com.kk.qqclient.view;
 
+import com.kk.qqclient.service.FileClientService;
 import com.kk.qqclient.service.UserClientService;
 import com.kk.qqclient.utils.Utility;
+import com.kk.qqcommon.Settings;
+import com.sun.xml.internal.ws.api.config.management.policy.ManagementAssertion;
 
 /**
  * 客户端菜单界面
@@ -18,6 +21,9 @@ public class QQView {
 
     // 用户服务
     private UserClientService userClientService = new UserClientService();
+
+    // 文件服务
+    private FileClientService fileClientService = new FileClientService();
 
     public static void main(String[] args) {
         new QQView().mainMenu();
@@ -52,6 +58,7 @@ public class QQView {
                             System.out.println("\t\t 2 群发消息");
                             System.out.println("\t\t 3 私聊消息");
                             System.out.println("\t\t 4 发送文件");
+                            System.out.println("\t\t 5 文件路径");
                             System.out.println("\t\t 9 退出系统");
                             System.out.print("请输入你的选择：");
                             key = Utility.readString(1);
@@ -87,7 +94,19 @@ public class QQView {
                                     }
                                     break;
                                 case "4":
-                                    System.out.println("发送文件");
+                                    System.out.println("发送文件功能正在维护中");
+//                                    System.out.print("请输入文件接收方的用户号：");
+//                                    String getterId = Utility.readString(50);
+//                                    System.out.println("即将向 " + getterId + " 发送文件");
+//                                    System.out.print("请输入本地文件绝对路径：");
+//                                    String filePath = Utility.readString(500);
+//                                    fileClientService.sendFileToOne(filePath, userId, getterId);
+                                    break;
+                                case "5":
+                                    System.out.println("默认文件保存路径为：" + Settings.getDownloadPath());
+                                    System.out.print("请输入更改后的保存目录(以/结尾)：");
+                                    String saveDir = Utility.readString(500);
+                                    Settings.setDownloadPath(saveDir);
                                     break;
                                 case "9":
                                     loop = false;

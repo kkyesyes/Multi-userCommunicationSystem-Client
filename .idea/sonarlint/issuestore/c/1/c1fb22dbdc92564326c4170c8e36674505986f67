@@ -1,21 +1,26 @@
 
-g	java:S112>"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¡ÔŞ¨Á1
-g	java:S112V"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¤ÔŞ¨Á1
-g	java:S112n"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¦ÔŞ¨Á1
-h	java:S112†"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8§ÔŞ¨Á1
-h	java:S112—"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8‚íä¨Á1
+g	java:S112?"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ˆ®«ÑÁ1
+g	java:S112W"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Š®«ÑÁ1
+g	java:S112o"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8‹®«ÑÁ1
+h	java:S112‡"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Œ®«ÑÁ1
+h	java:S112§"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8®«ÑÁ1
 w
-java:S1450"URemove the "socket" field and declare it as a local variable in the relevant methods.(Å’¬Úşÿÿÿÿ8µÔŞ¨Á1
+java:S1450"URemove the "socket" field and declare it as a local variable in the relevant methods.(Å’¬Úşÿÿÿÿ8—®«ÑÁ1
 \
-java:S1117P":Rename "socket" which hides the field declared at line 22.(ööª¡ıÿÿÿÿ8½ÔŞ¨Á1
+java:S1117Q":Rename "socket" which hides the field declared at line 23.(ööª¡ıÿÿÿÿ8Ÿ®«ÑÁ1
 \
-java:S1117h":Rename "socket" which hides the field declared at line 22.(ööª¡ıÿÿÿÿ8¿ÔŞ¨Á1
+java:S1117i":Rename "socket" which hides the field declared at line 23.(ööª¡ıÿÿÿÿ8¡®«ÑÁ1
 ]
-java:S1117€":Rename "socket" which hides the field declared at line 22.(ööª¡ıÿÿÿÿ8ÁÔŞ¨Á1
+java:S1117":Rename "socket" which hides the field declared at line 23.(ööª¡ıÿÿÿÿ8¤®«ÑÁ1
+a
+java:S1854“">Remove this useless assignment to local variable "folderPath".(Ä¡‹ûÿÿÿÿ8¦®«ÑÁ1
+M
+java:S1172’"/Remove this unused method parameter "fileData".(¨“»8»ÄÒÁ1
+R
+java:S1481“"/Remove this unused "folderPath" local variable.(Ä¡‹ûÿÿÿÿ8§®«ÑÁ1
 ]
-java:S1117‘":Rename "socket" which hides the field declared at line 22.(ööª¡ıÿÿÿÿ8›íä¨Á1
+java:S1117¡":Rename "socket" which hides the field declared at line 23.(ööª¡ıÿÿÿÿ8¨®«ÑÁ1
 S
-java:S1128
-"1Remove this unused import 'java.io.OutputStream'.(Ó ³ÿÿÿÿÿ8şóá¨Á1
+java:S1128"1Remove this unused import 'java.io.OutputStream'.(Ó ³ÿÿÿÿÿ8ÍÓ‚­Â1
 S
-java:S1128"1Remove this unused import 'java.net.InetAddress'.(ë³ƒÒÿÿÿÿÿ8şóá¨Á1
+java:S1128"1Remove this unused import 'java.net.InetAddress'.(ë³ƒÒÿÿÿÿÿ8ÏÓ‚­Â1

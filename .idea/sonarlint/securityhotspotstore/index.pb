@@ -92,3 +92,7 @@ w
 G.idea/sonarlint/issuestore/c/2/c29ad9b5cff5bc08ccabdd1c2b8568b387bb8ca1,8\8\88f793d3ca7d2a490d3d8fbe3d46f4b67ba0ed33
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+b
+2src/com/kk/qqclient/service/FileClientService.java,0\e\0e2371be02e54391c6e9330c64fa172e85b9cba3
+Q
+!src/com/kk/qqcommon/Settings.java,5\e\5e60e465707a475e02d893f1aca87f835e026f94

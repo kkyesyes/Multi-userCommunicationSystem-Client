@@ -1,22 +1,32 @@
 
-g	java:S112="FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÀÚÆ©Á1
+g	java:S112]"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÎîÉõÁ1
 r
-java:S1192."UDefine a constant instead of duplicating this literal "--------------------" 3 times.(Œ€ÿ8ÈÚÆ©Á1
+java:S11922"UDefine a constant instead of duplicating this literal "--------------------" 3 times.(Œ€ÿ8úĞ™İÁ1
 x
-java:S1192,"VDefine a constant instead of duplicating this literal "
---------------------" 3 times.(¢üš°ùÿÿÿÿ8ÍÚÆ©Á1
-]	java:S125"<This block of commented-out lines of code should be removed.(·»ğ“ÿÿÿÿÿ8 ÛÆ©Á1
-C	java:S131""Add a default case to this switch.(áê€ñúÿÿÿÿ8¢ÛÆ©Á1
-L	java:S106#"+Replace this use of System.out by a logger.(ä Ì”ùÿÿÿÿ8¥ÛÆ©Á1
-L	java:S106%"+Replace this use of System.out by a logger.(›Æ÷ìüÿÿÿÿ8§ÛÆ©Á1
-L	java:S106,"+Replace this use of System.out by a logger.(¢üš°ùÿÿÿÿ8©ÛÆ©Á1
-G	java:S106-"+Replace this use of System.out by a logger.(ôÙ™8ªÛÆ©Á1
-G	java:S106."+Replace this use of System.out by a logger.(Œ€ÿ8¬ÛÆ©Á1
-L	java:S1061"+Replace this use of System.out by a logger.(¢üš°ùÿÿÿÿ8­ÛÆ©Á1
-L	java:S1062"+Replace this use of System.out by a logger.(»ò”øÿÿÿÿ8®ÛÆ©Á1
-G	java:S1063"+Replace this use of System.out by a logger.(Œ€ÿ8°ÛÆ©Á1
-L	java:S1068"+Replace this use of System.out by a logger.(¢üš°ùÿÿÿÿ8±ÛÆ©Á1
-L	java:S1069"+Replace this use of System.out by a logger.(Ü¥ÁŠüÿÿÿÿ8²ÛÆ©Á1
-G	java:S106:"+Replace this use of System.out by a logger.(Œ€ÿ8³ÛÆ©Á1
+java:S11920"VDefine a constant instead of duplicating this literal "
+--------------------" 3 times.(¢üš°ùÿÿÿÿ8€Ñ™İÁ1
+]	java:S125"<This block of commented-out lines of code should be removed.(·»ğ“ÿÿÿÿÿ8Ñ™İÁ1
+C	java:S131#""Add a default case to this switch.(áê€ñúÿÿÿÿ8’Ñ™İÁ1
+L	java:S106'"+Replace this use of System.out by a logger.(ä Ì”ùÿÿÿÿ8“Ñ™İÁ1
+L	java:S106)"+Replace this use of System.out by a logger.(›Æ÷ìüÿÿÿÿ8”Ñ™İÁ1
+L	java:S1060"+Replace this use of System.out by a logger.(¢üš°ùÿÿÿÿ8•Ñ™İÁ1
+G	java:S1061"+Replace this use of System.out by a logger.(ôÙ™8—Ñ™İÁ1
+G	java:S1062"+Replace this use of System.out by a logger.(Œ€ÿ8˜Ñ™İÁ1
+L	java:S1065"+Replace this use of System.out by a logger.(¢üš°ùÿÿÿÿ8™Ñ™İÁ1
+L	java:S1066"+Replace this use of System.out by a logger.(»ò”øÿÿÿÿ8›Ñ™İÁ1
+G	java:S1067"+Replace this use of System.out by a logger.(Œ€ÿ8Ñ™İÁ1
+]	java:S125<"<This block of commented-out lines of code should be removed.(Ü÷ıùÿÿÿÿ8øáë¬Â1
+L	java:S106X"+Replace this use of System.out by a logger.(¢üš°ùÿÿÿÿ8îÅøŞÁ1
+L	java:S106Y"+Replace this use of System.out by a logger.(Ü¥ÁŠüÿÿÿÿ8¿˜ÃßÁ1
+G	java:S106Z"+Replace this use of System.out by a logger.(Œ€ÿ8†¸àôÁ1
+\
+java:S1128":Remove this unused import 'com.kk.qqclient.utils.Utility'.(æÇúüÿÿÿÿ8À˜ÃßÁ1
+W
+java:S1128"5Remove this unused import 'com.kk.qqcommon.Settings'.(ËòØ³üÿÿÿÿ8ùáë¬Â1
+Q
+java:S1128"4Remove this unused import 'java.io.FileInputStream'.(˜³ÉÓ8À˜ÃßÁ1
+Q
+java:S1128	"5Remove this unused import 'java.io.FileOutputStream'.(˜«ªg8úáë¬Â1
 R
-java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8¶ÛÆ©Á1
+java:S1128
+"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8úáë¬Â1
